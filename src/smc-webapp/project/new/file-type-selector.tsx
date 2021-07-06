@@ -62,7 +62,7 @@ export const FileTypeSelector: React.FC<Props> = ({
             >
               <NewFileButton
                 icon="jupyter"
-                name="Jupyter notebook"
+                name="Jupyter Notebook"
                 on_click={create_file}
                 ext={"ipynb"}
               />
